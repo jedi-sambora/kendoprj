@@ -1,0 +1,489 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Changelog for Kendo UI Professional v2022.1.301 (March 01, 2022)</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font: .75em/1.5 Tahoma, sans-serif;
+        }
+
+        h1 {
+            font-size: 2.2em;
+            font-size: normal;
+        }
+
+        h2 {
+            font-size: 2em;
+            font-weight: normal;
+
+            margin: 1.2em 0 .3em;
+            padding-bottom: .2em;
+        }
+
+        .breaking {
+            background-color: #e10c01;
+            color: #fff;
+            border-radius: 3px;
+            padding: 3px 4px;
+            display: inline-block;
+            font-size: 11px;
+            line-height: 1;
+            font-weight: bold;
+        }
+
+        #page {
+            width: 50em;
+            margin: 0 auto 2em;
+            border-radius: 0 0 1em 1em;
+            box-shadow: 0 0 10px #ccc;
+            padding: 1em 2em 2em;
+        }
+
+        .poBoxIcon {
+            float: left;
+            font-size: 2em;
+            margin: 1.2em .5em 0 0;
+        }
+
+        .poTopLine {
+            border-top: 2px solid #e1e1e1;
+            margin: 17px 0 40px 0;
+        }
+    </style>
+
+    <base href="https://www.telerik.com/support/whats-new/kendo-ui-web/release-history">
+</head>
+<body>
+    <div id="page">
+        <h1 class="title">Release notes</h1>
+        <div class="tClear poTopLine">
+        </div>
+    <h1>Common</h1>
+        <div class="tClear poTopLine">
+            <div class="poBoxIconText">
+                <p><strong>What's new</strong></p>
+<ul>
+<li>Classic Theme Package <a href="https://github.com/telerik/kendo-themes/blob/master/packages/classic/CHANGELOG.md#520-2022-02-21"> (v5.2.0) </a></li>
+<li>Bootstrap Theme Package <a href="https://github.com/telerik/kendo-themes/blob/master/packages/bootstrap/CHANGELOG.md#520-2022-02-21"> (v5.2.0) </a></li>
+<li>Default Theme Package <a href="https://github.com/telerik/kendo-themes/blob/master/packages/default/CHANGELOG.md#520-2022-02-21"> (v5.2.0) </a></li>
+<li>Material Theme Package <a href="https://github.com/telerik/kendo-themes/blob/master/packages/material/CHANGELOG.md#520-2022-02-21"> (v5.2.0) </a></li>
+</ul>
+                <p><strong>What's fixed</strong></p>
+<ul>
+<li>An error is thrown building the source code with gulp when node 12 is used. (<a href="https://github.com/telerik/kendo-ui-core/issues/6209">#6209</a>)</li>
+<li>kendo.support.mobileOS returns false on mobile devices in Desktop mode (<a href="https://github.com/telerik/kendo-ui-core/issues/5924">#5924</a>)</li>
+<li>fix(taskboard): add accessibility tests, improve KB nav on delete #14528</li>
+</ul>
+                
+            </div>
+        </div>
+
+        <h1>New components</h1>
+        <div class="tClear poTopLine">
+            <div class="poBoxIconText">
+                <h2>CircularProgressBar Component</h2>
+            </div>
+        </div>
+        <div class="tClear poTopLine">
+            <div class="poBoxIconText">
+                <h2>Checkbox Component</h2>
+            </div>
+        </div>
+        <div class="tClear poTopLine">
+            <div class="poBoxIconText">
+                <h2>RadioButton Component</h2>
+            </div>
+        </div>
+
+        <h1>Features and Updates</h1>
+
+        <div class="tClear poTopLine">
+            <h2>Button</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Initializing a Kendo Button overrides the type attribute of the button tag  (<a href="https://github.com/telerik/kendo-ui-core/issues/6689">#6689</a>)</li>
+<li>Unable to initialize widget via custom script or AMD loader due to missing dependencies to html helpers (<a href="https://github.com/telerik/kendo-ui-core/issues/6683">#6683</a>)</li>
+<li>TypeScript definitions for Button do not contain badge config (<a href="https://github.com/telerik/kendo-ui-core/issues/6498">#6498</a>)</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>ButtonGroup</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>ButtonGroup in a Toolbar results in multiple button selection (<a href="https://github.com/telerik/kendo-ui-core/issues/6723">#6723</a>)</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Checkbox</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Unable to initialize widget via custom script or AMD loader due to missing dependencies to html helpers (<a href="https://github.com/telerik/kendo-ui-core/issues/6683">#6683</a>)</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>ColorPicker</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Importing Kendo UI in an Angular Project throws an error in kendo.colorpicker.js (<a href="https://github.com/telerik/kendo-ui-core/issues/6735">#6735</a>)</li>
+<li>Unable to initialize widget via custom script or AMD loader due to missing dependencies to html helpers (<a href="https://github.com/telerik/kendo-ui-core/issues/6683">#6683</a>)</li>
+<li>ColorPicker requires two clicks to remove focus from the widget (<a href="https://github.com/telerik/kendo-ui-core/issues/4304">#4304</a>)</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>ComboBox</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Unable to initialize widget via custom script or AMD loader due to missing dependencies to html helpers (<a href="https://github.com/telerik/kendo-ui-core/issues/6683">#6683</a>)</li>
+<li>Duplicate read request is sent for cascading DropDownList or ComboBox with enabled filtering (<a href="https://github.com/telerik/kendo-ui-core/issues/6630">#6630</a>)</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>ContextMenu</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>ContextMenu in Scheduler does not open under Safari in Desktop of Ipad 13.3 (<a href="https://github.com/telerik/kendo-ui-core/issues/5552">#5552</a>)</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>DatePicker</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Unable to initialize widget via custom script or AMD loader due to missing dependencies to html helpers (<a href="https://github.com/telerik/kendo-ui-core/issues/6683">#6683</a>)</li>
+<li>DatePicker with enabled dateInput and set format does not set value if value is in different format (<a href="https://github.com/telerik/kendo-ui-core/issues/6607">#6607</a>)</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>DateTimePicker</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Kendo Grid Missing class "k-input-inner" for date input with Filter Customization (<a href="https://github.com/telerik/kendo-ui-core/issues/6717">#6717</a>)</li>
+<li>Unable to initialize widget via custom script or AMD loader due to missing dependencies to html helpers (<a href="https://github.com/telerik/kendo-ui-core/issues/6683">#6683</a>)</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Diagram</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Diagram goes into an infinite loop when the Shape bounds are provided as a string</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>DropDownList</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Incorrect popup height in DropDownList with LESS themes (<a href="https://github.com/telerik/kendo-ui-core/issues/6688">#6688</a>)</li>
+<li>Unable to initialize widget via custom script or AMD loader due to missing dependencies to html helpers (<a href="https://github.com/telerik/kendo-ui-core/issues/6683">#6683</a>)</li>
+<li>Duplicate read request is sent for cascading DropDownList or ComboBox with enabled filtering (<a href="https://github.com/telerik/kendo-ui-core/issues/6630">#6630</a>)</li>
+<li>DropDownList Search input missing label WAVE validation (<a href="https://github.com/telerik/kendo-ui-core/issues/6416">#6416</a>)</li>
+<li>fix(ddl): do not duplicate k-list-filter on setOptions</li>
+<li>fix(ddl): add aria-label on filter input #14528</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>DropDownTree</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Clicking on a DropDownTree checked and selected node's text does not uncheck its checkbox (<a href="https://github.com/telerik/kendo-ui-core/issues/6713">#6713</a>)</li>
+<li>Unable to initialize widget via custom script or AMD loader due to missing dependencies to html helpers (<a href="https://github.com/telerik/kendo-ui-core/issues/6683">#6683</a>)</li>
+<li>Multiple IDs are getting generated when clicking parent label in DropDownTree's inbuilt TreeView (<a href="https://github.com/telerik/kendo-ui-core/issues/6669">#6669</a>)</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Editor</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Editor width exceeds 100% (<a href="https://github.com/telerik/kendo-ui-core/issues/6718">#6718</a>)</li>
+<li>Table border styles are lost when pasting from Word to Editor (<a href="https://github.com/telerik/kendo-ui-core/issues/6653">#6653</a>)</li>
+<li>On dropping a text in the Editor it is not always pasted in the widget's content (<a href="https://github.com/telerik/kendo-ui-core/issues/6566">#6566</a>)</li>
+<li>Editor throws errors when carraige return is pasted from Word in Chrome and Edge (<a href="https://github.com/telerik/kendo-ui-core/issues/6333">#6333</a>)</li>
+<li>Editor InsertImage button causes browser freeze. (<a href="https://github.com/telerik/kendo-ui-core/issues/4131">#4131</a>)</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>FileManager</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>TreeView item in FileManager starts to move left on each selection if you had added a child item (new folder)</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Filter</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>The default value for Boolean fields in the Filter Widget is null. (<a href="https://github.com/telerik/kendo-ui-core/issues/6396">#6396</a>)</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Form</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>In Form with Upload editor, an error is thrown when you try to clear the Form. (<a href="https://github.com/telerik/kendo-ui-core/issues/6609">#6609</a>)</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Gantt</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Gantt do not update the percentage of a parent (<a href="https://github.com/telerik/kendo-ui-core/issues/6725">#6725</a>)</li>
+<li>After adding a new task and editing an existing one, the "Add Child/Above/Below" menu unexpectedly appears in Gantt and JS error is thrown on selecting Add Above/Below (<a href="https://github.com/telerik/kendo-ui-core/issues/6547">#6547</a>)</li>
+<li>Gantt Add Task dropdown has small items height</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Grid</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Kendo Grid Missing class "k-input-inner" for date input with Filter Customization (<a href="https://github.com/telerik/kendo-ui-core/issues/6717">#6717</a>)</li>
+<li>Grid with single selection mode allows selecting one row on each page, instead of only one row in the whole Grid (<a href="https://github.com/telerik/kendo-ui-core/issues/6705">#6705</a>)</li>
+<li>Grid throws an error when the default behavior of the pdf export event is prevented (<a href="https://github.com/telerik/kendo-ui-core/issues/6697">#6697</a>)</li>
+<li>Grid exportSelectedToExcel method exports rows that are not selected (<a href="https://github.com/telerik/kendo-ui-core/issues/6692">#6692</a>)</li>
+<li>Operation "Destroy" does not work properly when the data is grouped (<a href="https://github.com/telerik/kendo-ui-core/issues/6687">#6687</a>)</li>
+<li>Unable to initialize widget via custom script or AMD loader due to missing dependencies to html helpers (<a href="https://github.com/telerik/kendo-ui-core/issues/6683">#6683</a>)</li>
+<li>Group paging does not work correctly with virtualization and one level of grouping (<a href="https://github.com/telerik/kendo-ui-core/issues/6493">#6493</a>)</li>
+<li>Loading panel flickers when collapsing large groups (<a href="https://github.com/telerik/kendo-ui-core/issues/4651">#4651</a>)</li>
+<li>Wrong position of ColumnMenu icon in MultiColumnHeader</li>
+</ul>
+            <p><strong>What's changed</strong></p>
+<ul>
+<li><span class='breaking'>Breaking</span> Grid tfoot element should be rendered after tbody element (<a href="https://github.com/telerik/kendo-ui-core/issues/6535">#6535</a>)</li>
+</ul>            
+        </div>
+        <div class="tClear poTopLine">
+            <h2>ListBox</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>ListBox droppable area is reduced with v2022.1.119 (<a href="https://github.com/telerik/kendo-ui-core/issues/6701">#6701</a>)</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>MultiColumnComboBox</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>fix(list): proper list header and virtual MCCB header telerik/kendo-themes#3317</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>MultiSelect</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>MultiSelect dropdown closes on click in its header (<a href="https://github.com/telerik/kendo-ui-core/issues/6698">#6698</a>)</li>
+<li>Unable to initialize widget via custom script or AMD loader due to missing dependencies to html helpers (<a href="https://github.com/telerik/kendo-ui-core/issues/6683">#6683</a>)</li>
+<li>Incorrect MultiSelect input width (<a href="https://github.com/telerik/kendo-ui-core/issues/4692">#4692</a>)</li>
+<li>Pasted text in MutliSelect input is not aligned properly (<a href="https://github.com/telerik/kendo-ui-core/issues/4592">#4592</a>)</li>
+<li>Pasting long text in the MultiSelect's input displays a horizontal scroll bar (<a href="https://github.com/telerik/kendo-ui-core/issues/4294">#4294</a>)</li>
+<li>Selected token with long value exceeds MultiSelect 's width (<a href="https://github.com/telerik/kendo-ui-core/issues/1328">#1328</a>)</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>NumericTextBox</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Unable to initialize NumericTextBox via custom script or AMD loader due to missing dependencies to html.button helper (<a href="https://github.com/telerik/kendo-ui-core/issues/6693">#6693</a>)</li>
+<li>Pasted value containing whitespaces into NumericTextBox results in a trimmed value (<a href="https://github.com/telerik/kendo-ui-core/issues/6656">#6656</a>)</li>
+<li>JS error on declarative initialization of NumericTextBox with kendo.init (<a href="https://github.com/telerik/kendo-ui-core/issues/6372">#6372</a>)</li>
+<li>Аria-valuenow attribute doesn't transform ',' decimal separator to '.'  (<a href="https://github.com/telerik/kendo-ui-core/issues/5981">#5981</a>)</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>PDFViewer</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Upon opening the PDFViewer's Zoom ComboBox, its value is changed to NaN (<a href="https://github.com/telerik/kendo-ui-core/issues/6714">#6714</a>)</li>
+<li>Tools in overflow menu are not localized (<a href="https://github.com/telerik/kendo-ui-core/issues/6469">#6469</a>)</li>
+<li>PDFViewer does not open system dialog for printing in Chrome and Edge (<a href="https://github.com/telerik/kendo-ui-core/issues/6176">#6176</a>)</li>
+<li>Unable to print through PDFViewer on Android Chrome (<a href="https://github.com/telerik/kendo-ui-core/issues/5573">#5573</a>)</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Pager</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Pager keyboard navigation does not work in opposite direction (<a href="https://github.com/telerik/kendo-ui-core/issues/6643">#6643</a>)</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>PivotGrid</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Unable to initialize widget via custom script or AMD loader due to missing dependencies to html helpers (<a href="https://github.com/telerik/kendo-ui-core/issues/6683">#6683</a>)</li>
+<li>JS errors thrown by PivotGrid when Custom Download Builder script is loaded</li>
+<li>Wrong rendering of configuration items in PivotGrid</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>PivotGridV2</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>JS errors thrown by PivotGrid when Custom Download Builder script is loaded</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>RadioButton</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Radio buttons are not checked initially (<a href="https://github.com/telerik/kendo-ui-core/issues/6731">#6731</a>)</li>
+<li>Unable to initialize widget via custom script or AMD loader due to missing dependencies to html helpers (<a href="https://github.com/telerik/kendo-ui-core/issues/6683">#6683</a>)</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Scheduler</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>Screenreaders do not read the new date when it is changed in Scheduler (<a href="https://github.com/telerik/kendo-ui-core/issues/6550">#6550</a>)</li>
+</ul>
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Scheduler validation message disappears (<a href="https://github.com/telerik/kendo-ui-core/issues/6332">#6332</a>)</li>
+<li>Selecting a grouped event by multiple resources scrolls to last occurrence (<a href="https://github.com/telerik/kendo-ui-core/issues/4683">#4683</a>)</li>
+<li>Selected time slot/event is not scrolled into view in Scheduler Timeline View</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Spreadsheet</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>An error occurs when trying to select multiple cells in Spreadsheet (<a href="https://github.com/telerik/kendo-ui-core/issues/6720">#6720</a>)</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>TabStrip</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Selecting a tab from the TabStrip scrolls to the top of the page (<a href="https://github.com/telerik/kendo-ui-core/issues/6660">#6660</a>)</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>TextArea</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Wrong TextArea position</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>TileLayout</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Unable to increase height of TileLayout's last row items (<a href="https://github.com/telerik/kendo-ui-core/issues/6724">#6724</a>)</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>TimePicker</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Unable to initialize widget via custom script or AMD loader due to missing dependencies to html helpers (<a href="https://github.com/telerik/kendo-ui-core/issues/6683">#6683</a>)</li>
+<li>Wrong selected color in TimePicker with Material theme </li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>ToolBar</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Setting a custom class in Toolbar menuButtons removes the default classes (<a href="https://github.com/telerik/kendo-ui-core/issues/6719">#6719</a>)</li>
+<li>Unable to initialize widget via custom script or AMD loader due to missing dependencies to html helpers (<a href="https://github.com/telerik/kendo-ui-core/issues/6683">#6683</a>)</li>
+<li>fix(toolbar): add aria-label when buttons have no text #14528</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>TreeView</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Unable to initialize widget via custom script or AMD loader due to missing dependencies to html helpers (<a href="https://github.com/telerik/kendo-ui-core/issues/6683">#6683</a>)</li>
+<li>Multiple IDs are getting generated when clicking parent label in DropDownTree's inbuilt TreeView (<a href="https://github.com/telerik/kendo-ui-core/issues/6669">#6669</a>)</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Validator</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Validator throws JS error on validating input with double quote in its name attribute value (<a href="https://github.com/telerik/kendo-ui-core/issues/6596">#6596</a>)</li>
+</ul>
+                        
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Window</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Window modal overlay is removed in case a nested modal Window is closed and draggable.containment is set (<a href="https://github.com/telerik/kendo-ui-core/issues/6556">#6556</a>)</li>
+<li>Draggable Window with Position not draggable the first time (<a href="https://github.com/telerik/kendo-ui-core/issues/6424">#6424</a>)</li>
+<li>fix(window): move role to wrapper telerik/kendo#14528</li>
+</ul>
+                        
+        </div>
+    </div>
+</body>
+</html>
