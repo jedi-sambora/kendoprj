@@ -1,0 +1,33 @@
+.k-notification-success {
+  background-color: #4caf50; /* Hijau */
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.k-notification-error {
+  background-color: #f44336; /* Merah */
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.k-notification-info {
+  background-color: #2196f3; /* Biru */
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.k-notification-success .icon,
+.k-notification-error .icon,
+.k-notification-info .icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
