@@ -11,6 +11,8 @@
     <script src="./lib/kendoui/js/jquery.min.js"></script>
     <script src="./lib/kendoui/js/jszip.min.js"></script>
     <script src="./lib/kendoui/content/shared/js/console.js"></script>
+    <script src="./lib/kendoui/js/notif.js"></script>
+    <link href="./lib/kendoui/styles/notif.css" rel="stylesheet" />
     <script type="text/javascript" src="./lib/kendoui/js/kendo.all.min.js"></script>
 
     <style>
@@ -78,6 +80,8 @@
     <script>
         kendo.culture("id-ID");
         $(document).ready(function() {
+
+
             var notif = $("#notif").kendoNotification({
                 position: {
                     top: "50%",
@@ -250,6 +254,7 @@
                         notif.show({
                             message: "Data berhasil dihapus."
                         }, "success");
+                        Notifier.success(pesan);
 
                         grid.dataSource.read();
                     });
@@ -269,10 +274,10 @@
                 }
 
                 $.post("mbarang_crud.php", $("#barangForm").serialize(), function(res) {
-                    notif.show({
+                    /*notif.show({
                         message: "Data berhasil disimpan."
-                    }, "success");
-
+                    }, "success"); */
+                    Notifier.success("Data berhasil disimpan.");
                     barangWindow.close();
                     grid.dataSource.read();
                 });
